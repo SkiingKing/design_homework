@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:src="@drawable/user"
+        android:id="@+id/user"
+        />
+       <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+           android:id="@+id/title"
+           android:layout_marginTop="16dp"
+           android:layout_marginLeft="16dp"
+           android:textSize="22dp"
+           android:textColor="#000"
+        android:text="Title goes here"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/user"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Secondary text"
+        android:textSize="18dp"
+        android:id="@+id/second_text"
+        android:layout_below="@id/title"
+        android:layout_toRightOf="@id/user"
+
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+
+        android:id="@+id/center"
+        android:layout_height="194dp"
+        android:src="@drawable/center"
+        android:background="#999"
+        android:layout_below="@+id/second_text"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/center"
+        android:id="@+id/t1"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="Text text bfjbsdfjb bla bla jsdvfjsdhvds"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t1"
+        android:id="@+id/t2"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="16dp"
+        android:text="Text text bfjbsdfjb bla bla jsdvfjs"
+        android:textSize="18sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t2"
+        android:id="@+id/b1"
+        android:textColor="#990099"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="8dp"
+        android:text="ACTION 1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/b1"
+        android:layout_marginTop="16dp"
+
+        android:textColor="#990099"
+        android:layout_below="@+id/t2"
+        android:text="ACTION 2"/>
+</RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
